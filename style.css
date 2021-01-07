@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header nav {
+    background: black;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav ul li {
+    padding: 15px 30px;
+    list-style: none;
+}
+
+header nav ul li:hover {
+    background: gray;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#hero {
+    background: url('/img/la.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+#hero_text {
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: calc((100vw - 330.58px)/2);
+}
+
+#hero_text h4 {
+    padding: 30px 0;
+}
+
+#band {
+    background: rgb(233, 233, 233);
+    padding: 70px 30%;
+}
+
+#the_band {
+    text-align: center;
+}
+#the_band h1 {
+    font-weight: 400;
+    margin: 20px 0;
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+}
+
+#the_band .tag_line {
+    color:rgb(114, 114, 114);
+    margin: 20px 0 40px 0;
+}
+
+#the_band .the_band_desc {
+    text-align: justify;
+    margin: 40px 0 100px 0;
+}
+
+#bandmemeber {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#bandmemeber img {
+    width: 153px;
+    margin: 20px 0;
+}
+
+#tour_dates {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 70px 30%;
+}
